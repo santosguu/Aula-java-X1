@@ -20,6 +20,7 @@ public class App
 
         System.out.println("Nome Completo" + nomeCompleto() );
         System.out.println("Soma: " + somar( 10, 20 ));
+        System.out.println("subtrair: " + subtrair( 15,5));
 
         System.out.println( "Nome: " + nome );
         System.out.println( "Pessoa: " + pessoa );
@@ -40,4 +41,8 @@ public class App
     public static int somar( int nro1, int nro2) {
         return nro1 + nro2;
     }
+
+    public static int subtrair(int nro1, int nro2) {
+        return nro1 - nro2;
+    } 
 }
